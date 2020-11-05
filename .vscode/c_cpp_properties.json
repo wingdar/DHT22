@@ -17,7 +17,7 @@
                 "ARDUINO=10813"
             ],
             "intelliSenseMode": "gcc-x64",
-            "compilerPath": "D:/Arduino/hardware/tools/avr/bin/avr-gcc.exe",
+            "compilerPath": "C:\\Program Files (x86)\\Arduino\\hardware\\tools\\avr\\bin\\avr-gcc.exe",
             "cStandard": "c11",
             "cppStandard": "c++17"
         }
