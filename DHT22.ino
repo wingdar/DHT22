@@ -11,6 +11,8 @@ const char *ssid1 = "TD_WIFI";             //"TDIRT";如果要改成 AP 模式�
 const char *password1 = "16584326";
 const char *ssid2 = "TD_WIFI-7";           //
 const char *password2 = "16584326";
+const char *ssid3 = "TD_Mobile";           //
+const char *password3 = "66258188";
 ////////////////////////////////////////////////////////////////////////////////////////
 
 double Fahrenheit(double celsius) {
@@ -33,7 +35,7 @@ Serial.println();
 Serial.print("Connecting to ");
 Serial.println(ssid1);
 
-WiFi.begin(ssid1, password1);
+WiFi.begin(ssid3, password3);
 
 while (WiFi.status() != WL_CONNECTED) {
 delay(500);
